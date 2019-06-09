@@ -39,7 +39,7 @@ public class ChineseMemoryPointActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        dbHelper = new MyDatabaseHelper(this, "MemoryPointStore.db", null, 3);
+        dbHelper = new MyDatabaseHelper(this, "MemoryPointStore.db", null, 4);
         txtTitle = (TextView) findViewById(R.id.txt_memory_point_title);
         txtContent = (TextView) findViewById(R.id.txt_memory_point_content);
         imageMark = (ImageView) findViewById(R.id.image_mark);

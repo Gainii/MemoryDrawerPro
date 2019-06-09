@@ -48,7 +48,7 @@ public class ChineseMemoryDrawerActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        dbHelper = new MyDatabaseHelper(this, "MemoryPointStore.db", null, 3);
+        dbHelper = new MyDatabaseHelper(this, "MemoryPointStore.db", null, 4);
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 ChineseMemoryDrawerActivity.this, android.R.layout.simple_list_item_1,this.loadData());
         final ListView listView = (ListView) findViewById(R.id.list_view);

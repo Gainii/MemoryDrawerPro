@@ -54,7 +54,7 @@ public class MeActivity extends AppCompatActivity {
         tv1.setTypeface(typeface);
         tv2.setTypeface(typeface);
         txt.setTypeface(typeface);
-        dbHelper = new MyDatabaseHelper(this, "MemoryPointStore.db", null, 3);
+        dbHelper = new MyDatabaseHelper(this, "MemoryPointStore.db", null, 4);
 
         Calendar beginCalendar = Calendar.getInstance();
         beginCalendar.set(2019, 5, 30);
