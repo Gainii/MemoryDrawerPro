@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MemoryDrawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    //Button
+    <string name="btn_chinese">语 文</string>
+    <string name="btn_math">数 学</string>
+    <string name="btn_english">外 语</string>
+    <string name="btn_history">历 史</string>
+    <string name="btn_politics">政 治</string>
+
+    //右上角icon
+    <string name="menu_add_course">添加科目</string>
+    <string name="menu_remove_course">删除科目</string>
+
+    //导航栏-题目
+    <string name="title_drawer">记易橱</string>
+    <string name="title_chinese_memory_drawer">语文记易橱</string>
+    <string name="title_add_memory_point">添加记易点</string>
+    <string name="title_edit_memory_point">编辑记易点</string>
+    <string name="title_chinese_memory_point">语文记易点</string>
+    <string name="title_me">我的</string>
+
+    //记易点-Data
+    <string name="memory_point_1">《登高》  【唐】杜甫</string>
+    <string name="memory_point_2">《石头城》  【唐】刘禹锡</string>
+    <string name="memory_point_3">修辞手法</string>
+    <string name="memory_point_4">表现手法</string>
+    <string name="memory_point_5">文言文虚词标志</string>
+    <string name="memory_point_6">文言文实词标志</string>
+
+    //开关
+    <string name="switch_mark">标记为重点</string>
+
+
+</resources>
